@@ -28,6 +28,5 @@ public class RandomGeneratorTest {
         int expected = randomGenerator.getC();
         int actual = randomGenerator.getC();
         assertEquals(expected, actual);
-
     }
 }

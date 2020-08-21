@@ -1,6 +1,5 @@
 package by.service;
 
-
 import by.jis.bean.RandomGenerator;
 
 public class RandomGeneratorService {

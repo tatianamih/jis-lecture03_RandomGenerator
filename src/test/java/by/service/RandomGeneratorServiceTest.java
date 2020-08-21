@@ -11,7 +11,6 @@ public class RandomGeneratorServiceTest {
     public void sumUnboundRandom() {
         RandomGenerator randomGenerator = new RandomGenerator();
         RandomGeneratorService randomGeneratorService = new RandomGeneratorService();
-
         int expected = randomGenerator.getA() + randomGenerator.getB() + randomGenerator.getC();
         int actual = randomGeneratorService.sumUnboundRandom(randomGenerator);
         assertEquals(expected, actual);

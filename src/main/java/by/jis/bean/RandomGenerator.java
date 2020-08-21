@@ -8,6 +8,7 @@ public class RandomGenerator {
     private int b;
     private int c;
 
+    
     public RandomGenerator() {
         SecureRandom random = new SecureRandom();
         this.a  = random.nextInt(50);
